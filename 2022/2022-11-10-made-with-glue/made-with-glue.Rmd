@@ -159,8 +159,6 @@ gg %>%
 ---
 ```
 
----
-
 # The Recipe 
 
 ![](recipe-glue.png)
