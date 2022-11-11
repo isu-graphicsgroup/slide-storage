@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>Slides - Glued together</title>
+    <meta charset="utf-8" />
+    <script src="libs/header-attrs/header-attrs.js"></script>
+    <link href="libs/remark-css/default.css" rel="stylesheet" />
+    <link href="libs/remark-css/default-fonts.css" rel="stylesheet" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# Slides - Glued together
+## Numbats and Graphics Group Crossover
+### 2022/11/10
+
+---
+
+
+
+
+
+
+
+
+class: inverse, center, middle
+# Welcome!
+
+---
+
+# The Plan for Today
+.pull-left[
+- Introduce ourselves to each other
+
+- Talk about some R packages
+]
+.pull-right[
+.center[![](https://cdn.myportfolio.com/45214904-6a61-4e23-98d6-b140f8654a40/e684f0da-13b1-4d00-ab25-37814e79ee1e_rw_1920.png?h=2b72c110cfcf02f5cf1f74b558461c06)]
+Allison Horst  https://allisonhorst.com/
+]
+
+--
+
+- and eat pizza!
+
+
+
+---
+
+# Today's slides
+
+- made from `glue`d together data
+
+  - you provided the data
+  
+  - I `glue`d them together 
+
+- similar to Allison Hill's Valentine's Card approach 
+
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;small&gt;
+link of Allison Hill's talk at the R Cleveland Group from 3/24/2021  https://www.youtube.com/watch?v=sxYE0BY1mdc&amp;t=2868s
+&lt;/small&gt;
+
+---
+
+# Graphics &amp; Numbats Crossover
+
+.pull-left[
+### Monash NUMBATs 
+
+Non-Uniform Monash Business Analytics Team
+
+https://numbat.space/
+
+.center[ &lt;img src="https://cdn.britannica.com/87/81287-050-4A1A5B72/numbat-anteater.jpg" width=275&gt; ]
+
+]
+
+.pull-right[  
+### Graphics Group
+
+https://isu-graphics.rbind.io/
+
+.center[ &lt;img src="GG-hex.png" width=250&gt; ]
+]
+
+---
+
+# Meet the bakers
+
+
+
+.pull-left[  
+### NUMBATS
+
+- Paul Harrison
+- Jackson Kwok
+- Jayani Lakshika
+- Cynthia Huang
+- Emi Tanaka
+- H. Sherry Zhang
+- Maria Prokofieva
+- Lauren
+- Di Cook
+- Kate Saunders
+
+.center[
+![Allison Horst's monsters make cup cakes](https://cdn.myportfolio.com/45214904-6a61-4e23-98d6-b140f8654a40/b90efc6e-831f-445b-89d3-9d80a61720d6.png?h=57bfb8fc0efae9221dfd198aad2a67ce)
+]
+]
+
+.pull-right[  
+### Graphics Group
+
+- Emily Robinson
+- Rachel Rogers
+- Alison Kleffner
+- Susan Vanderplas
+- Edward Wu
+- Miguel Fudolig
+- Patrick Li
+- Gautham V
+- Marie Hardt
+- Heike Hofmann
+- Ben Jacobs
+- Ganesh
+
+&lt;small&gt;You are on here, if you filled out the survey at: https://forms.office.com/r/VVHtf569LZ
+&lt;/small&gt;
+]
+---
+
+
+
+# Meet Miguel Fudolig
+
+- I'm a faculty in Las Vegas 
+
+- A hidden R gem? `tidyverse` 
+
+- don't ask about the package rstan 😍 😠 🏩 - it's complicated 
+
+- You might know some of my packages: &lt;br&gt;
+`None` 
+---
+# Meet Edward Wu
+
+- I'm a student in Lincoln 
+
+- A hidden R gem? `/` 
+
+- don't ask about the package Ggplot2,dplyr 😍 😠 🏩 - it's complicated 
+
+- You might know some of my packages: &lt;br&gt;
+`/` 
+---
+# Meet Emi Tanaka
+
+- I'm a faculty in Melbourne 
+
+- A hidden R gem? `ggnewscale` 
+
+- don't ask about the package shiny 😍 😠 🏩 - it's complicated 
+
+- You might know some of my packages: &lt;br&gt;
+`edibble, deggust, and so on` 
+---
+# Meet Alison Kleffner
+
+- I'm a student in Lincoln, NE 
+
+- A hidden R gem? `I don't know if I have one` 
+
+- don't ask about the package sf 😍 😠 🏩 - it's complicated 
+
+- You might know some of my packages: &lt;br&gt;
+`nope` 
+---
+# Meet Patrick Li
+
+- I'm a student in Clayton, Victoria, Australia 
+
+- A hidden R gem? `RInside` 
+
+- don't ask about the package tidymodels (especially recipes) 😍 😠 🏩 - it's complicated 
+
+- You might know some of my packages: &lt;br&gt;
+`spotoroo, bandicoot, visage` 
+---
+# Meet Ben Jacobs
+
+- I'm a student in Ames 
+
+- A hidden R gem? `Base R` 
+
+- don't ask about the package PROC SGPLOT 😍 😠 🏩 - it's complicated 
+
+- You might know some of my packages: &lt;br&gt;
+`None` 
+---
+# Meet H. Sherry Zhang
+
+- I'm a student in Melbourne 
+
+- A hidden R gem? `ecmrwfr (https://github.com/bluegreen-labs/ecmwfr): a really neat package to download data from European Centre for Medium-Range Weather Forecasts` 
+
+- don't ask about the package sf.... 😍 😠 🏩 - it's complicated 
+
+- You might know some of my packages: &lt;br&gt;
+`ferrn, cubble :)` 
+---
+# Meet Maria Prokofieva
+
+- I'm a faculty in Melbourne 
+
+- A hidden R gem? `stminsights` 
+
+- don't ask about the package psych and yes tidyeval 😍 😠 🏩 - it's complicated 
+
+- You might know some of my packages: &lt;br&gt;
+`its under submission to CRAN! stay tuned!` 
+---
+# Meet Jackson Kwok
+
+- I'm a researcher in Melbourne, Australia 
+
+- A hidden R gem? `V8` 
+
+- don't ask about the package gt 😍 😠 🏩 - it's complicated 
+
+- You might know some of my packages: &lt;br&gt;
+`sketch; animate` 
+---
+# Meet Paul Harrison
+
+- I'm a researcher in Murrumbeena, Melbourne, Australia 
+
+- A hidden R gem? `crosstalk` 
+
+- don't ask about the package stats 😍 😠 🏩 - it's complicated 
+
+- You might know some of my packages: &lt;br&gt;
+`langevitour, topconfects` 
+---
+# Meet Kate Saunders
+
+- I'm a faculty in Brisbane - but I'll be in Melbourne soon! 
+
+- A hidden R gem? `lubridate (although not so hidden anymore!)` 
+
+- don't ask about the package rnoaa (spent weeks in my PhD writing a web-scraper for BoM data, only to have to package come out just after I finished) 😍 😠 🏩 - it's complicated 
+
+- You might know some of my packages: &lt;br&gt;
+`depPPR (but it needs cleaning up!)` 
+---
+# Meet Gautham V
+
+- I'm a student in Ames, Iowa 
+
+- A hidden R gem? `litr` 
+
+- don't ask about the package plotly 😍 😠 🏩 - it's complicated 
+
+- You might know some of my packages: &lt;br&gt;
+`torchrecorder (it's a Python package though)` 
+---
+# Meet Marie Hardt
+
+- I'm a student in Ames, Iowa 
+
+- A hidden R gem? `I'm not sure` 
+
+- don't ask about the package rstan 😍 😠 🏩 - it's complicated 
+
+- You might know some of my packages: &lt;br&gt;
+`No` 
+---
+# Meet Jayani Lakshika
+
+- I'm a student in Melbourne, Australia 
+
+- A hidden R gem? `tidyverse` 
+
+- don't ask about the package Shiny (love) 😍 😠 🏩 - it's complicated 
+
+- You might know some of my packages: &lt;br&gt;
+`MedLEA, Dsjobtracker` 
+---
+# Meet Emily Robinson
+
+- I'm a faculty in San Luis Obispo, CA 
+
+- A hidden R gem? `infer` 
+
+- don't ask about the package here 😍 😠 🏩 - it's complicated 
+
+- You might know some of my packages: &lt;br&gt;
+`hopefully to come! 'you draw it'` 
+---
+# Meet Cynthia Huang
+
+- I'm a student in Melbourne, Australia 
+
+- A hidden R gem? `tidylog` 
+
+- don't ask about the package assertr 😍 😠 🏩 - it's complicated 
+
+- You might know some of my packages: &lt;br&gt;
+`cynthiahqy/conformr (in dev)` 
+---
+# Meet Heike Hofmann
+
+- I'm a faculty in Ames, Iowa 
+
+- A hidden R gem? `litr` 
+
+- don't ask about the package rlang - and tidy evaluation. I will get it AND remember how to use it at some point! 😍 😠 🏩 - it's complicated 
+
+- You might know some of my packages: &lt;br&gt;
+`ggparallel, x3ptools, and a few others that are jointly maintained` 
+---
+# Meet Rachel Rogers
+
+- I'm a student in Nebraska 
+
+- A hidden R gem? `I’m not sure` 
+
+- don't ask about the package Im not sure 😍 😠 🏩 - it's complicated 
+
+- You might know some of my packages: &lt;br&gt;
+`None` 
+---
+# Meet Lauren
+
+- I'm a faculty in Melbourne 
+
+- A hidden R gem? `installr` 
+
+- don't ask about the package haven 😍 😠 🏩 - it's complicated 
+
+- You might know some of my packages: &lt;br&gt;
+`mrpkit` 
+---
+# Meet Susan Vanderplas
+
+- I'm a faculty in Lincoln, NE 
+
+- A hidden R gem? `Skimr, but skimpy has a much better name.` 
+
+- don't ask about the package None come to mind but that's probably my bad memory. 😍 😠 🏩 - it's complicated 
+
+- You might know some of my packages: &lt;br&gt;
+`Not that are maintained currently` 
+---
+# Meet Di Cook
+
+- I'm a faculty in Melbourne 
+
+- A hidden R gem? `crosstalk` 
+
+- don't ask about the package tidymodels 😍 😠 🏩 - it's complicated 
+
+- You might know some of my packages: &lt;br&gt;
+`tourr, nullabor, sugarbag, GGally, woylier, cassowaryr, tsibble, tsibbletalk, rj, rjtools, ferrn, plyranges, liminal, rebib, texor, triad, ggenealogy, yowie, learningtower, clusterfly, classifly` 
+---
+# Meet Ganesh
+
+- I'm a student in Ames 
+
+- A hidden R gem? `litr` 
+
+- don't ask about the package tidy-eval framework 😍 😠 🏩 - it's complicated 
+
+- You might know some of my packages: &lt;br&gt;
+` ` 
+---
+
+---
+
+# The Recipe 
+
+![](recipe-glue.png)
+
+
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
